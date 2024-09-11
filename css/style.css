@@ -1,0 +1,66 @@
+body{
+ margin: 0;
+ background-color: #f2f2f2;
+ color: #131d26;
+}
+
+header, footer{
+
+}
+
+.container{
+
+}
+
+.logo{
+
+}
+
+header ul{
+
+}
+
+header li a{
+
+}
+
+header li a.selected{
+   background-color: #59331d;
+}
+
+.hero{
+
+}
+
+.heroContent{
+
+}
+
+.hero h1{
+
+}
+
+.imageArticle{
+
+}
+
+.imageArticle .content{
+
+}
+
+.imageArticle img{
+
+}
+
+a{
+   color: #59331d;
+   text-decoration: none;
+}
+
+.btnPrimary{
+
+}
+
+.media img{
+   height: 32px;
+ }
