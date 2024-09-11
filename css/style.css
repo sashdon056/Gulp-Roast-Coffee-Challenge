@@ -5,11 +5,18 @@ body{
 }
 
 header, footer{
+   background-color: #131d26;
+   color: white;
 
 }
 
 .container{
-
+   max-width: 1400px;
+   margin: auto;
+   padding: 30px 20px;
+   display: flex;
+   justify-content: space-between;
+   
 }
 
 .logo{
