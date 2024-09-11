@@ -1,0 +1,39 @@
+ #absolute{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    position: top left;
+ }
+ 
+ .pageOptions{
+     background-color: #082B59;
+     padding: auto;
+     border-width: 20%;
+ }
+
+ #AboutUs{
+
+ }
+
+ .aboutContent{
+    align-content: center;
+    background-position: center;
+    background-color: #082B59;
+    container: 20px;
+ }
+
+ #ContactUs{
+
+ }
+
+ .baseContent{
+
+ }
+
+ .footerContent{
+
+ }
+
+ #image{
+   height: 40px;
+ }
