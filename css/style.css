@@ -1,73 +1,95 @@
 body{
- margin: 0;
- background-color: #f2f2f2;
- color: #131d26;
-}
-
-header, footer{
-   background-color: #131d26;
+   margin: 0;
+   background-color: #f2f2f2;
+   color: #131d26;
+  }
+  
+  header, footer{
+   background-color: #D98555;
    color: white;
-
-}
-
-.container{
-   max-width: 1400px;
-   margin: auto;
-   padding: 30px 20px;
-   display: flex;
-   justify-content: space-between;
-   
-}
-
-.logo{
-
-}
-
-header ul{
-
-}
-
-header li a{
-
-}
-
-header li a.selected{
-   background-color: #59331d;
-}
-
-.hero{
-
-}
-
-.heroContent{
-
-}
-
-.hero h1{
-
-}
-
-.imageArticle{
-
-}
-
-.imageArticle .content{
-
-}
-
-.imageArticle img{
-
-}
-
-a{
-   color: #59331d;
-   text-decoration: none;
-}
-
-.btnPrimary{
-
-}
-
-.media img{
-   height: 32px;
- }
+  }
+  
+  
+  .container{
+    max-width: 1400px;
+    margin: auto;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo{
+    height: 46px;
+  }
+  
+  header ul{ 
+    list-style: none;
+    display: flex;
+  }
+  
+  header li a{
+    display: block;
+    padding: 10px 50px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  header li a.selected{
+     background-color: #59331d;
+  }
+  
+  .hero{
+    height: 400px;
+    background-image: url(../gulp-drinking-coffee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .heroContent{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .hero h1{
+    margin: 0;
+    width: 300px;
+  }
+  
+  .imageArticle{
+    max-width: 1400px;
+    padding: 100px 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .imageArticle .content{
+    width: 50%;
+  }
+  
+  .imageArticle img{
+    width: 30%;
+    height: 600px;
+    object-fit: cover;
+  }
+  
+  a{
+     color: #59331d;
+     text-decoration: none;
+  }
+  
+  .btnPrimary{
+  
+  }
+  
+  .media img{
+     height: 32px;
+   }
+  
