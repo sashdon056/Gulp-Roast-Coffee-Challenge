@@ -86,7 +86,7 @@ body{
   }
   
   .btnPrimary{
-    dispay: inline-block;
+    display: inline-block;
     background-color: #131d26;
     padding: 10px 18px;
     color: white;
