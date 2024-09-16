@@ -1,125 +1,174 @@
 body{
-  margin: 0;
-  background-color: #f2f2f2;
-  color: #131d26;
- }
- 
- header, footer{
-  background-color: #D98555;
+ margin: 0;
+ background-color: #f2f2f2;
+ color: #131d26;
+}
+
+header, footer{
+ background-color: #D98555;
+ color: white;
+}
+
+
+.container{
+  max-width: 1400px;
+  margin: auto;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+.logo{
+  height: 100px;
+}
+
+header ul{ 
+  list-style: none;
+  display: flex;
+}
+
+header li a{
+  display: block;
+  padding: 10px 50px;
   color: white;
- }
- 
- 
- .container{
-   max-width: 1400px;
-   margin: auto;
-   padding: 30px 20px;
-   display: flex;
-   justify-content: space-between;
- }
- 
- .logo{
-   height: 100px;
- }
- 
- header ul{ 
-   list-style: none;
-   display: flex;
- }
- 
- header li a{
-   display: block;
-   padding: 10px 50px;
-   color: white;
+  text-decoration: none;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+header li a.selected{
+   background-color: #59331d;
+}
+
+.hero{
+  height: 400px;
+  background-image: url(https://assets.codepen.io/6306176/gulp-drinking-coffee.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.heroContent{
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+  padding: 20px;
+  
+}
+
+.hero h2{
+  margin: 30px;
+  width: 300px;
+  font-family: "Bebas Neue", sans-serif;
+  color: black;
+  font-style: oblique;
+  font-size: medium;
+
+}
+
+.hero h1{
+  margin: 30px;
+  width: 300px;
+  font-family: "Bebas Neue", sans-serif;
+  color: black;
+  font-style: oblique;
+}
+
+.imageArticle{
+  max-width: 1400px;
+  padding: none;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+
+.imageArticle .content{
+  width: 50%;
+}
+
+.content {
+  font-family: "Bebas Neue", sans-serif;
+  margin-left: 120px;
+}
+
+.imageArticle img{
+  width: 30%;
+  height: 600px;
+  object-fit: cover;
+  margin-right: -20px;
+}
+
+a{
+   color: #59331d;
    text-decoration: none;
-   font-family: "Bebas Neue", sans-serif;
+}
+
+.copy{
+  font-family: "Bebas Neue", sans-serif;
+}
+
+
+.btn-primary{
+  display: inline-block;
+  background-color: #131d26;
+  padding: 10px 18px;
+  color: white;
+  text-decoration: none;
+}
+
+.media img{
+   height: 32px;
  }
- 
- header li a.selected{
-    background-color: #59331d;
+
+ @media all and (max-width: 1400px){
+ header .containter{
+  flex-direction: column;
+  align-items: center;
  }
- 
  .hero{
-   height: 400px;
-   background-image: url(https://assets.codepen.io/6306176/gulp-drinking-coffee.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-   display: flex;
-   align-items: center;
-   justify-content: flex-start;
-   align-content: center;
+  height: 346px;
  }
- 
- .heroContent{
-   width: 100%;
-   max-width: 1400px;
-   margin: auto;
-   padding: 20px;
-   
- }
- 
- .hero h2{
-   margin: 30px;
-   width: 300px;
-   font-family: "Bebas Neue", sans-serif;
-   color: black;
-   font-style: oblique;
-   font-size: medium;
- 
- }
- 
- .hero h1{
-   margin: 30px;
-   width: 300px;
-   font-family: "Bebas Neue", sans-serif;
-   color: black;
-   font-style: oblique;
- }
- 
  .imageArticle{
-   max-width: 1400px;
-   padding: none;
-   margin: auto;
-   display: flex;
-   justify-content: space-between;
-   align-items:center;
+  padding: 40px 20px;
  }
- 
- 
- .imageArticle .content{
-   width: 50%;
  }
- 
- .content {
-   font-family: "Bebas Neue", sans-serif;
-   margin-left: 120px;
- }
- 
- .imageArticle img{
-   width: 30%;
-   height: 600px;
-   object-fit: cover;
-   margin-right: -20px;
- }
- 
- a{
-    color: #59331d;
-    text-decoration: none;
- }
- 
- .copy{
-   font-family: "Bebas Neue", sans-serif;
- }
- 
- .btnPrimary{
-   display: inline-block;
-   background-color: #131d26;
-   padding: 10px 18px;
-   color: white;
-   text-decoration: none;
- }
- 
- .media img{
-    height: 32px;
+
+ @media all and (max-width: 744px){
+  header ul{
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
   }
+  .hero{
+    height: 240px;
+  }
+  .hero h1{
+    margin: auto;
+    text-align: center;
+    font-size: 23px;
+  }
+  .hero h2{
+    margin: auto;
+    text-align: center;
+    font-size: 23px;
+  }
+  .imageArticle{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .imageArticle.content{
+    width: 100%;
+  }
+  .imageArticle img{
+    width: 100%;
+    height: 300px;
+  }
+ }
