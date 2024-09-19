@@ -33,11 +33,10 @@ header li a{
   padding: 10px 50px;
   color: white;
   text-decoration: none;
-  font-family: "Bebas Neue", sans-serif;
 }
 
 header li a.selected{
-   background-color: #59331d;
+   background-color:  #334761;;
 }
 
 .hero{
@@ -63,7 +62,6 @@ header li a.selected{
 .hero h2{
   margin: 30px;
   width: 300px;
-  font-family: "Bebas Neue", sans-serif;
   color: black;
   font-style: oblique;
   font-size: medium;
@@ -73,7 +71,6 @@ header li a.selected{
 .hero h1{
   margin: 30px;
   width: 300px;
-  font-family: "Bebas Neue", sans-serif;
   color: black;
   font-style: oblique;
 }
@@ -93,7 +90,6 @@ header li a.selected{
 }
 
 .content {
-  font-family: "Bebas Neue", sans-serif;
   margin-left: 120px;
 }
 
@@ -109,14 +105,11 @@ a{
    text-decoration: none;
 }
 
-.copy{
-  font-family: "Bebas Neue", sans-serif;
-}
 
 
 .btn-primary{
   display: inline-block;
-  background-color: #131d26;
+  background-color:  #334761;;
   padding: 10px 18px;
   color: white;
   text-decoration: none;
