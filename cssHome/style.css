@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    background-color: #f2f2f2;
+    color: #131d26;
+   }
+   
+   header, footer{
+    background-color: #D98555;
+    color: white;
+   }
+
+   header{
+    margin-bottom: 100px;
+   }
+
+   footer{
+    margin-top: 100px;
+   }
+   
+   
+   .container{
+     max-width: 1400px;
+     margin: auto;
+     padding: 30px 20px;
+     display: flex;
+     justify-content: space-between;
+   
+   }
+   
+   .logo{
+     height: 100px;
+   }
+   
+   header ul{ 
+     list-style: none;
+     display: flex;
+   }
+   
+   header li a{
+     display: block;
+     padding: 10px 50px;
+     color: white;
+     text-decoration: none;
+     font-family: "Bebas Neue", sans-serif;
+   }
+   
+   header li a.selected{
+      background-color: #59331d;
+   }
+
+   .media img{
+    height: 32px;
+  }
+ 
+
+#heroGrid{
+  margin: 0px 5%;
+  display: grid;
+  min-height: 500px;
+  height: 70vh;
+  grid-template-rows: 75% 25%;
+  grid-template-columns: 75% 25%;
+  grid-template-areas:
+   "featuredProduct secondaryProduct" 
+   "featuredProduct CTA";
+}
+
+#featuredProduct{
+  grid-area: featuredProduct;
+  background-image: url(https://assets.codepen.io/6306176/gulp-pouring-coffee-horizontal.jpg);
+}
+#secondaryProduct{
+  grid-area: secondaryProduct;
+   background-image:url(https://assets.codepen.io/6306176/gulp-menu.jpg);
+}
+#CTA{
+  grid-area: CTA;
+  background-image:url(https://majestycoffee.com/cdn/shop/articles/black_coffee.jpg?v=1684059071);
+  justify-content: space-around;
+  cursor: pointer;
+}
+.heroGridArea{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+  padding: 50px;
+}
+
+.heroGridArea h2{
+  font-size: 35px;
+}
+
+.heroGridArea h3{
+  font-size: 25px;
+}
+
+.heroGridArea p{
+  font-size: 20px;
+}
+
+button { 
+ background-color: rgba(255,255,255,0.8);
+ margin-top: 25px;
+ margin-bottom: 25px;
+ font-size: 20px;
+}
+
+#headlineBox{
+  border-bottom: 20px solid white;
+  background-color: rgba(255,255,255,0.8);
+  position: absolute top right;
+  z-index: 50px;
+  padding: 2%;
+}
