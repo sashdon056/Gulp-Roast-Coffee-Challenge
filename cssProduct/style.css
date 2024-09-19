@@ -7,7 +7,6 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    font-family: "Bebas Neue", sans-serif;
   }
 
   .selected{
@@ -28,12 +27,10 @@
     padding: 10px 50px;
     color: white;
     text-decoration: none;
-    font-family: "Bebas Neue", sans-serif;
   }
   
   header, footer {
     background-color: #D98555;
-    font-family: "Bebas Neue", sans-serif;
   }
  
   footer p{
@@ -48,8 +45,6 @@
    padding-bottom: 0px;
    padding-left: 100px;
    padding-right: 100px;
-   font-family: "Bebas Neue", sans-serif;
- 
   }
  
  
@@ -62,14 +57,12 @@
      padding-bottom: 200px;
      margin-left: 100px;
      margin-right: 100px;
-     font-family: "Bebas Neue", sans-serif;
   }
  
   .containerOP{
      background-color:#334761;
      border-radius: 0px;
      width: 100%;
-     font-family: "Bebas Neue", sans-serif;
      padding: none;
      padding-top: 30px;
      padding-bottom: 30px;
@@ -91,7 +84,6 @@
      margin: 10px 20px;
      font-size: 15px;
      color: white;
-     font-family: "Bebas Neue", sans-serif;
   }
  
   .media img{
@@ -107,12 +99,10 @@
      align-items: center;
      justify-content:baseline;
      align-content: center;
-     font-family: "Bebas Neue", sans-serif;
  }
  
  .view h1{
    margin: 200px;
    padding-left: 650px;
    color: white;
-   font-family: "Bebas Neue", sans-serif;
  }
